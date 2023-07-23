@@ -1,0 +1,17 @@
+.header-ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  text-transform: capitalize;
+}
+
+.actions > ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  max-width: 300px;
+  min-width: 200px;
+}
