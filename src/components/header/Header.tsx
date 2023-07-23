@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./Header.scss";
 import Logo from "../svg/Logo";
 import { useState } from "react";
 export default function Header() {

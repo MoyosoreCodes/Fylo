@@ -1,0 +1,16 @@
+.footer-ctn {
+  background: hsl(216, 53%, 9%);
+  padding: 70px 50px;
+}
+
+.items {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  gap: 16px;
+
+
+  .links-ctn {
+    display: flex;
+  }
+}
