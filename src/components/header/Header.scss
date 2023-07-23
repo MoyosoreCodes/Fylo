@@ -7,12 +7,18 @@
   min-width: 520px
 }
 
-.actions > ul {
-  display: flex;
-  list-style-type: none;
-  flex-direction: row;
-  justify-content: space-between;
-  cursor: pointer;
-  max-width: 300px;
-  min-width: 200px;
+.actions {
+
+  ul {
+   display: flex;
+   list-style-type: none;
+   flex-direction: row;
+   justify-content: space-between;
+   max-width: 300px;
+   min-width: 200px;
+
+   li {
+    cursor: pointer;
+   }
+ }
 }

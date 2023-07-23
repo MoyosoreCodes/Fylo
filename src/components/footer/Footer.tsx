@@ -12,7 +12,7 @@ export default function Footer() {
       <Logo />
       <div className="items">
         <div className="item-ctn">
-          <div>
+          <div className="content">
             <FontAwesomeIcon icon={faLocationDot} />
             <span>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
@@ -21,25 +21,27 @@ export default function Footer() {
           </div>
         </div>
         <div className="item-ctn">
-          <div>
+          <div className="content">
             <FontAwesomeIcon icon={faPhoneVolume} />
             <span>+1-234-567-8910</span>
           </div>
-          <div>
+          <div className="content">
             <FontAwesomeIcon icon={faEnvelope} />
             <span>someone@email.com</span>
           </div>
-          {/* <FontAwesomeIcon icon={faEnvelope} />
-          <span>In a Galaxy far, far away</span> */}
         </div>
         <div className="links-ctn">
-          <div>
+          <div className="content">
             <p>About Us</p>
             <p>Job</p>
             <p>Press</p>
             <p>Blog</p>
           </div>
-          <div></div>
+          <div className="content">
+            <p>Contact Us</p>
+            <p>Terms</p>
+            <p>Privacy</p>
+          </div>
         </div>
       </div>
     </footer>
